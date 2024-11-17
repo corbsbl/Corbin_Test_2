@@ -40,7 +40,7 @@ public class CustomerOrderTest {
         order.addItem("Cheese Pizza", 10.00);
         order.pay("Credit Card");
         assertTrue(order.isPaid());
-        assertEquals(10.00, order.getTotalAmount(), 0.01);
+        assertEquals(10.00, order.getTotalAmount(), 0.01);//test3
     }
 
 
